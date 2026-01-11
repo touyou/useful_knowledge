@@ -7,7 +7,8 @@
 ```
 docs/
 ├── flutter/     # Flutter パフォーマンス最適化ガイド
-└── react/       # React × jotai ナレッジ
+├── react/       # React × jotai ナレッジ
+└── swift/       # Swift Actor ナレッジ
 ```
 
 ## Flutter パフォーマンス最適化
@@ -40,6 +41,19 @@ Flutterアプリケーションのパフォーマンス最適化に関する包�
 - [08. jotai-eagerを使う](docs/react/08_jotai_eager.md)
 - [09. エラーハンドリング](docs/react/09_error_handling.md)
 
+## Swift Actor ナレッジ
+
+Swift Concurrencyにおけるアクターモデルの概念と実践的な使い方をまとめたナレッジです。公式ドキュメント、Swift Evolution、Apple Developer Documentationを中心にまとめています。
+
+### 目次
+
+- [00. 目次](docs/swift/00_index.md)
+- [01. Actorの基本](docs/swift/01_actor_fundamentals.md)
+- [02. MainActor](docs/swift/02_main_actor.md)
+- [03. GlobalActor](docs/swift/03_global_actor.md)
+- [04. Sendableとアクター境界](docs/swift/04_sendable_isolation.md)
+- [05. SwiftUIとの連携](docs/swift/05_swiftui_integration.md)
+
 ## ライセンス
 
 このリポジトリの内容は個人的な学習目的でまとめたものです。
@@ -48,3 +62,4 @@ Flutterアプリケーションのパフォーマンス最適化に関する包�
 
 - **Flutter**: Flutter公式ドキュメント、各種技術ブログ
 - **React**: [jotaiによるReact再入門](https://zenn.dev/uhyo/books/learn-react-with-jotai) by uhyo、React公式ドキュメント
+- **Swift**: [The Swift Programming Language](https://docs.swift.org/swift-book/)、[Swift Evolution](https://github.com/swiftlang/swift-evolution)、[Apple Developer Documentation](https://developer.apple.com/documentation/swift/)
